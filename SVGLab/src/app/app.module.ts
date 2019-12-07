@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarplotClockComponent } from './barplot-clock/barplot-clock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarplotClockComponent
   ],
   imports: [
     BrowserModule,
